@@ -1,0 +1,34 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>MSN Messenger Log Viewer</title>
+	<style>
+		body {
+			background: white;
+			font-family: "MS Sans Serif", "Verdana", "DejaVu Sans", sans-serif;
+			font-size: 67%;
+		}
+
+		#dropzone {
+			margin-bottom: 1ex;
+			border: 1px dotted black;
+			padding: 4ex;
+			border-radius: 1ex;
+			background-color: #eeeeee;
+		}
+
+		#dropzone.hover {
+			background-color: #e0edff;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>MSN Messenger Log Viewer</h1>
+	<div id="dropzone">Drop a log here</div>
+	<div id="view"></div>
+	<script src="msnlog.js"></script>
+</body>
+</html>
